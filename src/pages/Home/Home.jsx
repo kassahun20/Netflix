@@ -1,13 +1,16 @@
-import React from 'react'
-import Header from '../../components/Header/Header.jsx'
-import Footer from '../../components/Footer/Footer.jsx'
-function Home() {
+import React from "react";
+import RowList from "../../components/Rowlist/RowList";
+import Banner from "../../components/Banner/Banner";
+import Layout from "../Layouts/Layout";
+const Home = () => {
   return (
-    <div>
-      <Header/>
-      <Footer/>
-    </div>
-  )
-}
+    <>
+      <Layout>
+        <Banner />
+        <RowList />
+      </Layout>
+    </>
+  );
+};
 
-export default Home
+export default Home;

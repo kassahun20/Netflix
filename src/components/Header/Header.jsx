@@ -8,7 +8,7 @@ import { IoMdArrowDropdown } from 'react-icons/io';
 function Header() {
   return (
     <div>
-      <h1>Home</h1>
+     
       <div className="header-outer-container">
         <div className="header-container">
           <div className="header-left">
